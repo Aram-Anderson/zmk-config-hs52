@@ -1,9 +1,9 @@
 # This file generates the GitHub Actions matrix.
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: hillside52_left nice_view_adapter nice_view
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: hillside52_right nice_view_adapter nice_view
